@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_title"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/aed_btn"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/round_btn2"
+                android:drawableTop="@drawable/heart_btn"
+                android:padding="10dp"
+                android:text="@string/aed_text"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pharmacy_btn"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_btn2"
+                android:drawableTop="@drawable/pharmcy_btn"
+                android:padding="10dp"
+                android:text="@string/pharmacy_text"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/emergency_room_btn"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/round_btn2"
+                android:drawableTop="@drawable/emergency_room"
+                android:padding="10dp"
+                android:text="@string/emergency_room_text"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/disease_info_btn"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_btn2"
+                android:drawableTop="@drawable/disease_info1"
+                android:padding="10dp"
+                android:text="@string/disease_info_btn"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

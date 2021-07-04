@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">C P R</string>
+    <string name="title_home">문진</string>
+    <string name="title_dashboard">메뉴</string>
+    <string name="title_notifications">응급전화</string>
+    <string name="button_text1">뒤로가기</string>
+    <string name="mainbtn_text">문진 시작하기</string>
+    <string name="pharmacy_text">약국 찾기</string>
+    <string name="emergency_room_text">응급실 찾기</string>
+    <string name="aed_text">AED 찾기</string>
+    <string name="disease_info_btn">질병 정보</string>
+    <string name="dashboard_title">원하는 기능을 선택하세요</string>
+    <string name="checklist_title">해당하는 증상에 체크해주세요</string>
+    <string name="symptom1">의식이 있습니까?</string>
+    <string name="symptom2">출혈이 있습니까?</string>
+    <string name="symptom3">움직일 수 있습니까?</string>
+    <string name="symptom4">통증이 있습니까?</string>
+    <string name="symptom5">발작을 일으킵니까?</string>
+    <string name="symptom6">구토를 합니까?</string>
+    <string name="symptom7">발열이 있습니까?</string>
+    <string name="symptom8">피부가 창백합니까?</string>
+    <string name="symptom9">땀을 흘립니까?</string>
+    <string name="symptom10">기침을 합니까?</string>
+    <string name="symptom11">입술이 말랐습니까?</string>
+    <string name="symptom12">호흡이 가파릅니까?</string>
+    <string name="symptom13">어지러움을 느낍니까?</string>
+    <string name="symptom14">통증 유지가 30분을 넘습니까?</string>
+    <string name="symptom15">더운곳에 오래 노출되어 있었습니까?</string>
+    <string name="symptom16">발음이 어눌합니까?</string>
+    <string name="symptom17">걸을 때 자꾸 한쪽으로 쏠립니까?</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_emergency_info">Emergency_info</string>
+    <string name="tab_text_1">AED</string>
+    <string name="tab_text_2">약국</string>
+    <string name="tab_text_3">응급실</string>
+    <string name="disease_name1">열사병</string>
+    <string name="disease_name2">일사병</string>
+    <string name="disease_name3">천식</string>
+    <string name="disease_name4">골절</string>
+    <string name="disease_name5">협심증</string>
+    <string name="disease_name6">심근경색</string>
+    <string name="disease_name7">뇌졸중</string>
+    <string name="method">대처법</string>
+    <string name="symptom">증상</string>
+    <string name="feature">특징</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_item_map">Map</string>
+    <string name="title_activity_all_map">All_Map</string>
+    <string name="all_map">all_map</string>
+    <string name="all_map_btn">지도</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="emergency_call">119</string>
+    <string name="Emergency_call_btn_text">119를 부를려면 아래의 버튼을 누르세요</string>
+</resources>
